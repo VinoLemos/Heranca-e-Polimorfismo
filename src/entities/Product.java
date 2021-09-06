@@ -33,7 +33,7 @@ public class Product {
 //Retorna informações do produto (parecida com a função toString)
 	public String priceTag() {
 		return name
-			+ " $"
+			+ " $ "
 			+ String.format("%.2f", price);
 	}
 }

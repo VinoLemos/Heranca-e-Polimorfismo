@@ -63,6 +63,9 @@ public class Program {
 			
 		}
 		
+		System.out.println();
+		System.out.println("Price Tags");
+		
 		for (Product prod : products) {
 			System.out.println(prod.priceTag());
 		}

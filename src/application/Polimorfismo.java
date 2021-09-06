@@ -4,6 +4,7 @@ import entities.Account;
 import entities.BusinessAccount;
 import entities.SavingsAccount;
 
+@SuppressWarnings("unused")
 public class Polimorfismo {
 	public static void main(String[] args) {
 		

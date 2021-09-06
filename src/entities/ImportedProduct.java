@@ -6,6 +6,12 @@ public class ImportedProduct extends Product{
 	public ImportedProduct() {
 		
 	}
+	public Double getCustomsFee() {
+		return customsFee;
+	}
+	public void setCustomsFee(Double customsFee) {
+		this.customsFee = customsFee;
+	}
 	public ImportedProduct(String name, Double price, Double customsFee) {
 		super(name, price);
 		this.customsFee = customsFee;
